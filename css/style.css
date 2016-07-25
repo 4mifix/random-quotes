@@ -1,0 +1,67 @@
+
+body {
+  text-align: center;
+  width: 600px;
+  margin: 0px auto;
+  background-color: rgba(209, 225, 217, 0.5);
+  font-family: 'Playfair' serif;
+}
+
+
+h1 { 
+  text-shadow: 5px 5px 5px #999;
+  margin: 10px auto;
+  font-size: 50px;
+  color: rgb(12, 12, 12);
+  }
+
+p {
+  font-family: 'playfair display' italic;
+  font-size:25px;
+  }
+
+.button {
+  color: rgba(0,0,0,0.8);
+  text-color: rgb(88, 60, 90);
+  height: 40px;
+  width: 100px;
+  margin: 40px 20px 20px;
+  color: rgba(0, 0, 5, 0.8);
+  background-color: rgba(215, 217, 216, .6);
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 2px 3px 3px;
+  rgba(100, 100, 90, .7);
+}
+
+
+.quote {
+  font-family: 'Playfair Display', Arial, serif;
+  font-size: 22px;
+  width:650px;
+  height: auto;
+  margin: 0, auto;
+  background-color: rgb(167, 170, 169);
+  padding; 25px;
+  background-color: rgba(260, 265, 260, 0.5);
+  border-radius: 10px;
+  color: rgba(0, 0, 1, 0.9);
+  box-shadow: 10px 15px 10px
+    rgba(100, 100, 80, 0.7);
+}
+
+
+.wisdom {
+  font-family: playfair italic;
+}
+
+.person {
+  font-style: italic;
+}
+
+ .tweet {
+  padding-top: 40px;
+  padding-bottom: -40px;
+}
