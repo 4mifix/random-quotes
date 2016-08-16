@@ -8,7 +8,7 @@ body {
 }
 
 
-h1 { 
+h1 {
   text-shadow: 5px 5px 5px #999;
   margin: 10px auto;
   font-size: 50px;
@@ -20,9 +20,9 @@ p {
   font-size:25px;
   }
 
-.button {
+.newquote {
   color: rgba(0,0,0,0.8);
-  text-color: rgb(88, 60, 90);
+  text: rgba(255, 255, 255, 1);
   height: 40px;
   width: 100px;
   margin: 40px 20px 20px;
@@ -32,8 +32,8 @@ p {
   font-size: 15px;
   font-weight: bold;
   border-radius: 12px;
-  box-shadow: 2px 3px 3px;
-  rgba(100, 100, 90, .7);
+  box-shadow: 2px 3px 3px rgba(100, 100, 90, .7);
+  cursor: pointer;
 }
 
 
@@ -48,8 +48,7 @@ p {
   background-color: rgba(260, 265, 260, 0.5);
   border-radius: 10px;
   color: rgba(0, 0, 1, 0.9);
-  box-shadow: 10px 15px 10px
-    rgba(100, 100, 80, 0.7);
+  box-shadow: 10px 15px 10px rgba(100, 100, 80, 0.7);
 }
 
 
@@ -60,8 +59,26 @@ p {
 .person {
   font-style: italic;
 }
-
- .tweet {
-  padding-top: 40px;
-  padding-bottom: -40px;
+#twitter_btn img {
+  width: 15px;
+  margin-right: 8px;
+}
+#twitter_btn {
+  margin: 30px auto 10px;
+  color: #FFF;
+  background-color: rgb(29, 202, 255);
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Playfair Display', Arial, serif;
+  height: 40px;
+  width: 100px;
+  margin: 40px auto 20px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px rgba(100, 100, 90, .7);
+  cursor: pointer;
 }
