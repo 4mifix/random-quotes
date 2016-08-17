@@ -9,6 +9,7 @@ body {
 
 
 h1 {
+  padding-top: 60px;
   text-shadow: 5px 5px 5px #999;
   margin: 10px auto;
   font-size: 50px;
