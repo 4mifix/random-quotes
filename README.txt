@@ -1,3 +1,5 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/4mifix/pen/PZRgPY.
 
+Test of js skills.
+
+https://4mifix.github.io/random-quotes/
  
